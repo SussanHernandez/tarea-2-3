@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEje2_3.Views.PageCreate">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image x:Name="Imagen" WidthRequest="100" HeightRequest="200" />
+
+            <Button x:Name="btnfoto" Text="Capturar Imagen" Clicked="btnfoto_Clicked" />
+
+            <Entry x:Name="descripcion" Placeholder="descripcion" MaxLength="100"  />
+            
+            <Button x:Name="btnguardar" Text="Guardar" Clicked="btnguardar_Clicked" />
+            <Button x:Name="btnlista" Text="Guardar" Clicked="btnlista_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
